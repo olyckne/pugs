@@ -1,0 +1,11 @@
+default:
+  autoload:
+    '': %paths.base%/tests/features/bootstrap
+  suites:
+    default:
+      paths: [%paths.base%/tests/features]
+
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://pug.app:8000
+      goutte: ~
