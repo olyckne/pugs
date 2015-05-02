@@ -18,6 +18,11 @@
             border-color: transparent;
         }
 
+        .btn {
+            position: relative;
+            z-index: 1100;
+        }
+
         .pug-col, .pug-col-sm {
             padding-bottom: 25px;
         }
