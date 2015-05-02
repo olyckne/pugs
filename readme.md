@@ -3,4 +3,4 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/olyckne/pugs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/olyckne/pugs/?branch=master)
 
 # I love pugs!
-## Website for [pugs.olyck.net](pugs.olyck.net)
+## Website for [pugs.olyck.net](http://pugs.olyck.net)
