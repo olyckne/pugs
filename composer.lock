@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c4621c0da7cfcaa24f07cb07a41f541",
+    "hash": "ad5229c86f98637bff21bcc1af6a0ee2",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -1759,11 +1759,17 @@
         },
         {
             "name": "olyckne/pug",
-            "version": "v1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
-                "url": "/Users/mattiaslyckne/code/Pug",
-                "reference": "24a345e3cd01ea5966ee14d65c65d546132ea736"
+                "url": "https://github.com/olyckne/Pug.git",
+                "reference": "9ea882425c6ca47f59614795dcc8b570955c9d06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/olyckne/Pug/zipball/9ea882425c6ca47f59614795dcc8b570955c9d06",
+                "reference": "9ea882425c6ca47f59614795dcc8b570955c9d06",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^5.2",
@@ -1780,6 +1786,7 @@
                     "Olyckne\\Pug\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1790,7 +1797,7 @@
                 }
             ],
             "description": "Get images of Pugs",
-            "time": "2015-05-02 11:20:04"
+            "time": "2015-05-02 13:50:17"
         },
         {
             "name": "psr/log",
