@@ -17,7 +17,7 @@ addons:
 
 before_script:
   - composer install --prefer-source --no-interaction
-  - php -S pug.app:8000 -t public &
+  - php -S pugs.app:8000 -t public &
   - sleep 3
 
-script: vendor/bin/behat
+script: vendor/bin/behat --profile=travis
