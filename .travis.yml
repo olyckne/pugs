@@ -15,6 +15,11 @@ addons:
   hosts:
     - pug.app
 
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
 before_script:
   - composer install --prefer-source --no-interaction
   - php -S pugs.app:8000 -t public &
