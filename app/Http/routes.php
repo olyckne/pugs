@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -16,7 +18,7 @@ $app->get('/', function() {
     return view('index', compact('pug'));
 });
 
-$app->get('/bomb', function () {
-    $pugs = Pug::bomb(Request::get('count') ?: 4);
+$app->get('/bomb', function (Request $request) {
+    $pugs = Pug::bomb($request->get('count') ?: 4);
     return view('bomb', compact('pugs'));
 });
