@@ -4,8 +4,8 @@
     "license": "MIT",
     "type": "website",
     "require": {
-        "laravel/lumen-framework": "5.1.*",
-        "vlucas/phpdotenv": "~2.0",
+        "laravel/lumen-framework": "5.2.*",
+        "vlucas/phpdotenv": "~2.2",
         "olyckne/pug": "^2.0"
     },
     "require-dev": {
