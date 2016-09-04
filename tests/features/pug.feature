@@ -9,3 +9,8 @@ Feature: I want pugs!
     Given I am on "/bomb?count=6"
     Then I should see "Let there be pugs!"
     And I should see 6 "img" elements
+
+  Scenario: I want default of 4 pugs
+    Given I am on "/bomb"
+    Then I should see "Let there be pugs!"
+    And I should see 4 "img" elements
