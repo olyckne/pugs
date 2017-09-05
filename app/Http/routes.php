@@ -13,12 +13,12 @@ use Illuminate\Http\Request;
 |
 */
 
-$app->get('/', function() {
+$app->router->get('/', function() {
     $pug = Pug::random();
     return view('index', compact('pug'));
 });
 
-$app->get('/bomb', function (Request $request) {
+$app->router->get('/bomb', function (Request $request) {
     $pugs = Pug::bomb($request->get('count') ?: 4);
     return view('bomb', compact('pugs'));
 });

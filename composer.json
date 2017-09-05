@@ -5,12 +5,12 @@
     "type": "website",
     "require": {
         "php": ">=7.0",
-        "laravel/lumen-framework": "5.2.*",
+        "laravel/lumen-framework": "5.5.*",
         "vlucas/phpdotenv": "~2.2",
         "olyckne/pug": "^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit": "~6.0",
         "behat/behat": "^3.0",
         "behat/mink": "^1.6",
         "behat/mink-extension": "^2.0",
